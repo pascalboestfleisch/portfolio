@@ -1,0 +1,17 @@
+h1, div {
+    text-align: center;
+}
+
+.crop {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  }
+  
+   img {
+    height: 100%;
+    width: auto;
+  } 

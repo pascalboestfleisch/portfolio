@@ -1,0 +1,7 @@
+h1, div {
+    text-align: center;
+}
+
+.java:hover, .python:hover, .angular:hover, .postgresql:hover {
+    transform: scale(1.25);
+}
