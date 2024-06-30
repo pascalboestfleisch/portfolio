@@ -9,9 +9,11 @@ h1, div {
     border-radius: 50%;
     display: block;
     margin: auto;
+    margin-bottom: 1em;
+    margin-top: 2em;
   }
   
-   img {
+img {
     height: 100%;
     width: auto;
-  } 
+}

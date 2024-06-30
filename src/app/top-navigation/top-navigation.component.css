@@ -1,7 +1,9 @@
 .topnav {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgb(21, 36, 63);
     overflow: hidden;
-  }
+    margin: 0;
+    margin-bottom: 2em;
+}
   
 .topnav a {
     float: left;
@@ -12,12 +14,40 @@
     font-size: 17px;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.topnav-right {
+    float: right;
+}
+
+.logo:hover {
+    transform: scale(1.125);
+    text-shadow: 1px 1px 15px white;
+
 }
 
 .logo {
-    text-align: left;
+    transition: all .3s ease-in-out;
 }
 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

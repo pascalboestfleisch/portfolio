@@ -2,6 +2,11 @@ h1, div {
     text-align: center;
 }
 
+.java, .python, .angular, .postgresql {
+    padding-left: 1em;
+    padding-right: 2em;
+}
 .java:hover, .python:hover, .angular:hover, .postgresql:hover {
     transform: scale(1.25);
+    transition: all .3s ease-in-out;
 }
