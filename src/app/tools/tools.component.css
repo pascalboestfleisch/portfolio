@@ -10,3 +10,8 @@ h1, div {
     transform: scale(1.25);
     transition: all .3s ease-in-out;
 }
+
+.container {
+    margin-bottom: 5%;
+    margin-top: 2em;
+}

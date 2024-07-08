@@ -1,13 +1,15 @@
 h1, div {
     text-align: center;
 }
+
 .items {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 300px;
     position: fixed;
-    padding-left: 0.25em;
+    padding-left: 0.4em;
+    margin-top: -40px;
 }
 
 .items a:hover {
@@ -17,5 +19,5 @@ h1, div {
 }
 
 .items a {
-    padding-top: 0.1em;
+    padding-top: 0.2em;
 }

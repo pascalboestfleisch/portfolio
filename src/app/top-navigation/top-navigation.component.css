@@ -3,6 +3,7 @@
     overflow: hidden;
     margin: 0;
     margin-bottom: 2em;
+    z-index: 1000;
 }
   
 .topnav a {

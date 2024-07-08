@@ -17,3 +17,7 @@ img {
     height: 100%;
     width: auto;
 }
+
+.container {
+    margin-bottom: 5%;
+}
