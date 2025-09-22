@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <title>Redirecting to Portfolio</title>
   <script>
-    const hash = window.location.hash;
-    window.location.replace("/portfolio/browser/index.html" + hash);
+    if (window.location.pathname === "/") {
+      const hash = window.location.hash;
+      window.location.href = "/portfolio/browser/index.html" + hash;
+    }
   </script>
 </head>
 <body>
